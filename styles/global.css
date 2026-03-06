@@ -7,7 +7,15 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #555555; /* temporary */
+}
+
+main {
+  background-color: #fff;
+  color: #000;
 }
 
 h1,
@@ -33,6 +41,17 @@ img {
   width: 100%;
 }
 
+address {
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 button {
   font: inherit;
+  color: inherit;
+  background: transparent;
 }
